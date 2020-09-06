@@ -15,6 +15,7 @@
 		CF3C3BF32500210F0023804F /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3C3BF22500210F0023804F /* Film.swift */; };
 		CF4440D025014AAD0063CCC5 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4440CF25014AAD0063CCC5 /* DataManager.swift */; };
 		CF4440D7250551980063CCC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4440D6250551980063CCC5 /* ViewController.swift */; };
+		CF4CA707250558F800E94146 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4CA706250558F800E94146 /* MovieTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		CF3C3BF22500210F0023804F /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
 		CF4440CF25014AAD0063CCC5 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		CF4440D6250551980063CCC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF4CA706250558F800E94146 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				CF4440D6250551980063CCC5 /* ViewController.swift */,
+				CF4CA706250558F800E94146 /* MovieTableViewCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 			files = (
 				CF4440D7250551980063CCC5 /* ViewController.swift in Sources */,
 				CF4440D025014AAD0063CCC5 /* DataManager.swift in Sources */,
+				CF4CA707250558F800E94146 /* MovieTableViewCell.swift in Sources */,
 				CF3C3BF32500210F0023804F /* Film.swift in Sources */,
 				CF3C3BD9250017A00023804F /* AppDelegate.swift in Sources */,
 				CF3C3BDB250017A00023804F /* SceneDelegate.swift in Sources */,
