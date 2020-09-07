@@ -79,6 +79,10 @@
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="Mtq-XU-5f3" id="aRK-Dc-cOU"/>
+                                    <outlet property="delegate" destination="Mtq-XU-5f3" id="lfT-cd-HLO"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
