@@ -10,7 +10,7 @@
         <!--IMDB TOP 10 MOVIES-->
         <scene sceneID="Nve-5q-BTj">
             <objects>
-                <viewController id="Mtq-XU-5f3" customClass="MovieListTableViewController" customModule="MovieList" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Mtq-XU-5f3" customClass="ViewController" customModule="MovieList" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MVF-Ps-Hsy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -72,6 +72,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="directorLabel" destination="ZYH-Oc-03i" id="0PO-WX-luf"/>
+                                            <outlet property="filmImageView" destination="y5g-Mq-zsm" id="VaX-LP-6dX"/>
                                             <outlet property="titleLabel" destination="Qio-Bd-q7P" id="aGa-Wa-bPm"/>
                                             <segue destination="tHb-1B-TBv" kind="show" id="Ylt-MD-Amv"/>
                                         </connections>
@@ -89,7 +90,7 @@
                         <viewLayoutGuide key="safeArea" id="zw6-H4-oDV"/>
                     </view>
                     <navigationItem key="navigationItem" title="IMDB TOP 10 MOVIES" id="jI4-In-zLJ">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="ABF-CY-yyN">
+                        <barButtonItem key="rightBarButtonItem" style="done" id="ABF-CY-yyN">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mQO-p2-1eU">
                                 <rect key="frame" x="276" y="7" width="83" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -99,15 +100,12 @@
                     </navigationItem>
                     <connections>
                         <outlet property="editButtonTapped" destination="ABF-CY-yyN" id="GWv-BF-O6Z"/>
-                        <outlet property="movieImageView" destination="XWs-Du-VUJ" id="5dT-kJ-yvt"/>
-                        <outlet property="movieTableViewCell" destination="XWs-Du-VUJ" id="Mcr-xL-5TK"/>
-                        <outlet property="movieViewCell" destination="XWs-Du-VUJ" id="8VS-m9-iQ5"/>
                         <outlet property="tableView" destination="RGr-UR-HWM" id="OmG-NJ-DMe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UlF-3w-TLi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-94" y="-1181"/>
+            <point key="canvasLocation" x="-14" y="-1604"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="h6U-ja-LuK">
@@ -147,14 +145,10 @@
                         <viewLayoutGuide key="safeArea" id="kkB-04-abA"/>
                     </view>
                     <navigationItem key="navigationItem" id="0CT-tZ-BfW"/>
-                    <connections>
-                        <outlet property="movieNameImage" destination="X3E-BN-e3B" id="Dwc-23-ZWe"/>
-                        <outlet property="movieNameLabel" destination="Vmx-BZ-uUj" id="lcB-0a-oGT"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KlX-MB-DdR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="610" y="-1182"/>
+            <point key="canvasLocation" x="722" y="-1571"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="7QP-9i-Uty">
@@ -172,7 +166,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PRo-Du-FhE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-860" y="-1180"/>
+            <point key="canvasLocation" x="-666" y="-1589"/>
         </scene>
     </scenes>
     <resources>
