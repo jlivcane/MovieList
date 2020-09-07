@@ -19,7 +19,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="movieCell" rowHeight="126" id="XWs-Du-VUJ" customClass="MovieTableViewCell">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="movieCell" rowHeight="126" id="XWs-Du-VUJ" customClass="MovieTableViewCell" customModule="MovieList" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="126"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="XWs-Du-VUJ" id="y5g-Mq-zsm">
@@ -72,8 +72,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="directorLabel" destination="ZYH-Oc-03i" id="6Zw-CN-4up"/>
-                                            <outlet property="filmImageView" destination="y5g-Mq-zsm" id="VaX-LP-6dX"/>
-                                            <outlet property="titleLabel" destination="Qio-Bd-q7P" id="aGa-Wa-bPm"/>
+                                            <outlet property="movieCellView" destination="3rR-mX-GvI" id="nub-FB-egH"/>
                                             <outlet property="titleLable" destination="Qio-Bd-q7P" id="PZc-M1-mfb"/>
                                             <segue destination="tHb-1B-TBv" kind="show" id="Ylt-MD-Amv"/>
                                         </connections>
@@ -110,7 +109,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UlF-3w-TLi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-14" y="-1604"/>
+            <point key="canvasLocation" x="-334" y="-1604"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="h6U-ja-LuK">
@@ -171,7 +170,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PRo-Du-FhE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-666" y="-1589"/>
+            <point key="canvasLocation" x="-1510" y="-1659"/>
         </scene>
     </scenes>
     <resources>

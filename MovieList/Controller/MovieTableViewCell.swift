@@ -11,8 +11,8 @@ import UIKit
 class MovieTableViewCell: UITableViewCell {
     @IBOutlet weak var titleLable: UILabel!
     @IBOutlet weak var directorLabel: UILabel!
-    @IBOutlet weak var filmImageView: UIImageView!
     
+    @IBOutlet weak var movieCellView: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
