@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     func configureCell(cell: MovieTableViewCell, for indexPath: IndexPath){
         let film = films[indexPath.row]
         cell.filmImageView.image = UIImage(named: film.poster)
-        cell.titleLabel.text = film.movieName
+        cell.titleLable.text = film.movieName
         cell.directorLabel.text = film.director
         
     }

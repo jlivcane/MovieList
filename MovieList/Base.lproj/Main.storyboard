@@ -29,7 +29,7 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="Bd9-F6-g72">
                                                     <rect key="frame" x="15" y="11" width="345" height="104"/>
                                                     <subviews>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3rR-mX-GvI">
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="12 Angry Men (1957)" translatesAutoresizingMaskIntoConstraints="NO" id="3rR-mX-GvI">
                                                             <rect key="frame" x="0.0" y="0.0" width="82" height="104"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="82" id="hzJ-EV-GOg"/>
@@ -71,9 +71,10 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="directorLabel" destination="ZYH-Oc-03i" id="0PO-WX-luf"/>
+                                            <outlet property="directorLabel" destination="ZYH-Oc-03i" id="6Zw-CN-4up"/>
                                             <outlet property="filmImageView" destination="y5g-Mq-zsm" id="VaX-LP-6dX"/>
                                             <outlet property="titleLabel" destination="Qio-Bd-q7P" id="aGa-Wa-bPm"/>
+                                            <outlet property="titleLable" destination="Qio-Bd-q7P" id="PZc-M1-mfb"/>
                                             <segue destination="tHb-1B-TBv" kind="show" id="Ylt-MD-Amv"/>
                                         </connections>
                                     </tableViewCell>
@@ -170,6 +171,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="12 Angry Men (1957)" width="649" height="1000"/>
         <image name="The Lord of the Rings- The Return of the King (2003)" width="675" height="1000"/>
     </resources>
 </document>
